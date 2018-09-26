@@ -1,0 +1,167 @@
+body {
+    font-family: 'open-sans',sans-serif,Tahoma;
+    font-weight: 300;
+}.visa-navbar .navbar-nav {
+    float: right;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.container-fluid {
+    max-width: 1170px;
+}@media (min-width: 992px){
+.container-fluid {
+    width: 85%;
+}}
+.bule-navbar {
+    border-width: 1px 0;
+    background: #1a1e5a;
+    background: -webkit-gradient(linear,left bottom,right top,color-stop(0,#1a1e5a),color-stop(100%,#122d98));
+    background: -webkit-linear-gradient(45deg,#1a1e5a 0,#122d98 100%);
+    background: linear-gradient(45deg,#1a1e5a 0,#122d98 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF1A1E5A',endColorstr='#FF122D98',GradientType=1);   
+	    position: relative;
+    min-height: 50px;
+    margin-bottom: 0;
+    border: 1px solid transparent;  padding-top: 0px;
+    padding-bottom: 0px;
+}.navbar-brand {
+    margin-top: 0rem;
+    padding-top: .0rem;
+
+}.bule-navbar .bule-logo {height:2.5rem}
+.bule-navbar .navbar-nav {
+    font-size: 1.4rem;
+    padding-top: 1.0rem !important;
+    padding-bottom: 1.0rem !important;    
+}
+.navbar-nav-desktop li {
+    font-size: 1rem;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}.bule-icon-search:before {
+    content: "\e827";
+}
+.bule-icon:before {
+    font-family: "visaFont";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    position: relative;
+    top: 1px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.navline {
+    height: 3.5px;
+    z-index: 3;
+    display: block;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}.navline .nav-indicator-bar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: 1s;
+    transition: 1s;
+    background: url(https://usa.visa.com/etc/designs/rvcom/images/global-nav-indicator-bar.jpg) 2500px 0;
+}.navline .nav-indicator {
+    position: absolute;
+    top: -8px;
+    width: 30px;
+    height: 10px;
+    margin-left: -15px;
+    display: none;
+    z-index: 10;
+    -webkit-transition: 1s;
+    transition: 1s;
+}.navline .nav-indicator img {
+    width: auto;
+    height: 100%;
+}
+.bule-navbar .navbar-nav>li>a {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-nav .search-nav-item {
+    padding-top: .2rem!important;  
+}
+.navbar-nav .nav-link {
+    padding-right: 0;    
+    padding-left: 0;
+    font-weight: 300 !important;
+    color: #fff !important;
+}.bule-navbar .navbar-nav {
+    float: right;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}.navbar-light .navbar-nav .nav-link:hover{color: #f7b600 !important;
+    text-decoration: none; }.bule-navbar .navbar-nav {
+    font-size: 2rem;
+}[class^="visa-icon-"], [class*=" visa-icon-"] {
+    font-family: 'visaFont' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}.bule-navbar .bule-icon-search, .bule-navbar .bule-icon-hamburger {
+    font-size: 3rem;
+    cursor: pointer;
+}
+.form-inline { display:none !important; }
+.bule-icon:before {
+    font-family: "visaFont";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    position: relative;
+    top: 1px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} .sep-line {
+    display: inline-block;
+    width: 1px;
+    height: 25px;
+    position: relative;
+    top: -3px;float: left;
+    background-color: rgba(255,255,255,0.25);
+}.sep-line {
+    margin-left: 1.5rem;
+    margin-right: 3rem;
+    height: 3.5rem;
+}
+
+.bule-navbar ul.navbar-nav-desktop li {
+    font-size: 1.2rem !important;
+}
+.navbar-form {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 10px 15px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1), 0 1px 0 rgba(255,255,255,0.1);
+    margin-top: 8px;
+    margin-bottom: 8px;
+}.navbar {
+    padding: 0px !important;
+}
+
+.bule-navbar .navbar-nav button.toggle-search {
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    top: -4px;
+}
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" type="application/javascript"  ></script>
+<link rel="stylesheet" href="css/style.css" type="text/css"   >
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css"   >
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+</head>
+
+<body>
+<header role="banner"> 
+ <nav class="navbar navbar-expand-lg navbar-light bule-navbar bg-light">
+ <div class="container-fluid">
+  <a class="navbar-brand" href="#"><img src="https://usa.visa.com/content/dam/VCOM/nav-assets/logo.png" class="bule-logo" alt="logo"  /></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse navbar-nav-desktop" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto" id="tab_sel35116">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Pay With Visa </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Partner With Us </a>
+      </li>
+ <li class="nav-item">
+        <a class="nav-link" href="#"> Run Your Business </a>
+      </li><li class="nav-item"> 
+        <a class="nav-link" href="#">Travel With Visa </a>
+      </li><li class="nav-item">
+        <a class="nav-link" href="#">Learn About Visa </a>
+      </li>
+     <li class="search-nav-item" > 
+                        <span class="sep-line"></span> 
+                        <span class="bule-icon bule-icon-search"></span>
+                    </li>
+     
+    </ul>
+    <form class="form-inline my-2 my-lg-0 navbar-form">
+    
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">GO</button>
+    </form>
+  </div>  </div>
+</nav>
+<div class="navline">
+        <div class="nav-indicator-bar" >
+            <div class="nav-indicator" id="down_blue_arr" style=" visibility: visible; ">
+                <img src="https://usa.visa.com/content/dam/VCOM/nav-assets/global-nav-indicator.png" alt="Navigation Indication" role="presentation">
+            </div>
+        </div>
+    </div>
+ </header>	
+</body>
+<script src="bootstrap/js/bootstrap.min.js"  type="application/javascript"></script>
+<script type="application/javascript">
+$(document).ready(function(){
+    $("#tab_sel35116 li").on("click", moveArrow);
+});
+
+function moveArrow(){
+    var pos = $(this).position().left;
+	var pos2 = $(this).position().left;
+	 var pos1 = $( "#tab_sel35116 li" ).width();
+	$(".nav-indicator-bar").css("background-position", (pos2+pos2+pos2) + "px 0px");
+	
+    $("#down_blue_arr").css("left", (pos+pos1/2) + "px");
+	$("#down_blue_arr").css("display", "block");
+}
+
+</script>
+
+</html>
